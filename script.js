@@ -13,7 +13,6 @@ function genMap() {
     if (randNo === 0) {
       let randNo1 = Math.floor(Math.random() * 2);
       gameMap.push(randNo1);
-      console.log(randNo1);
     } else if (randNo === 1) {
       let randNo2 = Math.floor(Math.random() * 2 + 1);
       gameMap.push(randNo2);
